@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
+import Contact from './pages/Contact/Contact'
 
 import './App.css'
 
@@ -14,7 +15,10 @@ function App() {
       {/* <h1>Shree Ganesh</h1> */}
       <Router>
         <Navbar />
-        <Routes>
+        <Home />
+        <About />
+        <Contact />
+        {/* <Routes>
           <Route
             path="/home"
             Component={Home}
@@ -23,8 +27,8 @@ function App() {
             path="/about"
             Component={About}
           />
-        </Routes>
-        <Footer />
+        </Routes> */}
+        {/* <Footer /> */}
       </Router>
     </div>
   )

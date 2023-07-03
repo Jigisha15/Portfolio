@@ -3,6 +3,7 @@
   position: relative;
   height: 100vh;
   z-index: 0;
+  background-image: url('../../assets/crepe.jpg');
   background-color: #ebd6ee;
   display: flex;
   justify-content: center;
@@ -13,13 +14,32 @@
   width: 70vw;
   height: 70vh;
   border: 1px solid grey;
+  z-index: 1;
+  display: inline-block;
 }
 
 .home-name {
   font-size: 5rem;
-  /* color: white; */
+  z-index: 1;
+  /* display: inline-block; */
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 3s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: both;
 }
 
 .home-text {
   font-size: 3rem;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }

@@ -1,0 +1,55 @@
+.contact {
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.contact-text {
+  display: inline-block;
+  margin: 0 0 5rem 0;
+}
+
+.contact-text h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  overflow: hidden;
+  border-right: 1px solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+.divs {
+  width: 20vw;
+  height: 20vh;
+  border: 1px solid black;
+}

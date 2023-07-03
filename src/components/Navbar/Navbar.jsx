@@ -18,7 +18,7 @@ const Navbar = () => {
         <li>
           <NavLink
             className="nav-li active"
-            to="/home"
+            to="https://github.com/Jigisha15"
           >
             {/* Home */}
             <SiGithub />
@@ -27,28 +27,28 @@ const Navbar = () => {
         <li>
           <NavLink
             className="nav-li active"
-            to="/about"
+            to="https://www.linkedin.com/in/jigisha-ghanekar"
           >
             {/* About */}
             <SiLinkedin />
           </NavLink>
         </li>
         <li>
-          <NavLink className="nav-li active">
+          <NavLink
+            className="nav-li active"
+            to="https://www.instagram.com/jigisha4_/"
+          >
             {/* Projects */}
             <SiInstagram />
           </NavLink>
         </li>
         <li>
-          <NavLink className="nav-li active">
+          <NavLink
+            className="nav-li active"
+            to="https://www.facebook.com/profile.php?id=100079070826837"
+          >
             {/* Contact Me  */}
             <SiFacebook />
-          </NavLink>
-        </li>
-        <li>
-          <NavLink className="nav-li active">
-            {/* Contact Me  */}
-            <SiGmail />
           </NavLink>
         </li>
         <li>
@@ -58,7 +58,10 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink className="nav-li active">
+          <NavLink
+            className="nav-li active"
+            to="https://goo.gl/maps/BArbUpU5Wcgv52k37"
+          >
             {/* Contact Me  */}
             <IoLocationSharp />
           </NavLink>
