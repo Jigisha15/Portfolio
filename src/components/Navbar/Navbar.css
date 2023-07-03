@@ -1,0 +1,29 @@
+.navbar {
+  width: 5vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 1;
+  padding-top: 9rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: absolute;
+  right: 35%;
+}
+
+.nav-li {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  /* color: black; */
+  color: #4b4453;
+}
+
+/* .active {
+  text-decoration: underline;
+} */
