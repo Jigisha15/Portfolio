@@ -8,19 +8,61 @@ const Contact = () => {
       <div className="contact-text">
         <h1>I'd love to hear from you . . .</h1>
       </div>
-      <div className="wrap">
+      {/* <div className="wrap">
         <div className="contact-one divs">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius,
-          consequatur?
+          Wanna Collaborate? <br />
+          <button className="text">Mail Me!</button>
         </div>
         <div className="contact-two divs">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-          quo.
+          Wanna know more about
+          <br /> <button className="text">Mail Me!</button>
         </div>
         <div className="contact-three divs">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-          quo.
+          Contact Me
+          <br />
+          <button className="text">Mail Me!</button>
         </div>
+      </div> */}
+
+      <div className="wrap">
+        <div className="contact-center"></div>
+        <form action="">
+          <div className="row">
+            <div className="input-group">
+              <input
+                type="text"
+                id="name"
+                required
+              />
+              <label htmlFor="name">Name</label>
+            </div>
+            <div className="input-group">
+              <input
+                type="number"
+                id="contact"
+                required
+              />
+              <label htmlFor="contact">Contact</label>
+            </div>
+          </div>
+          <div className="input-group">
+            <input
+              type="email"
+              id="email"
+              required
+            />
+            <label htmlFor="email">Email</label>
+          </div>
+          <div className="input-group">
+            <textarea
+              rows="8"
+              id="message"
+              required
+            ></textarea>
+            <label htmlFor="message">Message</label>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </div>
   )

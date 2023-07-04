@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #000;
+  color: white;
 }
 
 .wrap {
@@ -25,7 +27,8 @@
   border-right: 1px solid black;
   white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.4vw;
+  /* letter-spacing: 0.15em; */
   animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
@@ -47,9 +50,100 @@
     border-color: black;
   }
 }
-
+/* 
 .divs {
   width: 20vw;
   height: 20vh;
   border: 1px solid black;
+  padding: 1vw;
+} */
+
+.wrap {
+  display: flex;
+  align-items: center;
+}
+
+.contact-center {
+  width: 75vw;
+  height: 75vh;
+  border: 5px solid black;
+  background-image: url('../../assets/keyboard.jpg');
+  filter: blur(8px);
+  /* -webkit-filter: blur(8px); */
+  position: relative;
+  z-index: 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+form {
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  /* border: 1px solid white; */
+}
+
+.input-group {
+  margin-bottom: 3vh;
+  position: relative;
+}
+
+input,
+textarea {
+  width: 100%;
+  height: 5vh;
+  outline: 0;
+  /* border: 1px solid white; */
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  background: transparent;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  height: 13vh;
+  left: 0;
+  top: 0;
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  column-rule: white;
+  cursor: text;
+  transition: 0.2s;
+}
+
+button {
+  padding: 10px 0;
+  color: white;
+  outline: none;
+  background: transparent;
+  border: 1px solid white;
+  width: 100%;
+  cursor: pointer;
+}
+
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -35px;
+  font-size: 0.9rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row .input-group {
+  width: 48%;
 }

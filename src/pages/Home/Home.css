@@ -13,13 +13,13 @@
 .home-center {
   width: 70vw;
   height: 70vh;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   z-index: 1;
   display: inline-block;
 }
 
 .home-name {
-  font-size: 5rem;
+  font-size: 6vw;
   z-index: 1;
   /* display: inline-block; */
   overflow: hidden;
@@ -32,7 +32,8 @@
 }
 
 .home-text {
-  font-size: 3rem;
+  font-size: 3.8vw;
+  letter-spacing: 0.1vw;
 }
 
 @keyframes typing {
