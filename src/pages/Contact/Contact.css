@@ -50,14 +50,6 @@
     border-color: black;
   }
 }
-/* 
-.divs {
-  width: 20vw;
-  height: 20vh;
-  border: 1px solid black;
-  padding: 1vw;
-} */
-
 .wrap {
   display: flex;
   align-items: center;
