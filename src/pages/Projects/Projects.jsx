@@ -6,19 +6,20 @@ import './Projects.css'
 
 const Projects = () => {
   return (
-    <div className="about">
-      <div className="flip-card">
-        <div className="flip-card-inner">
-          <div className="flip-image-out">
-            <img
-              className="flip-image"
-              src={devices}
-              alt=""
-            />
+    <div className="about-container">
+      <div className="about">
+        <div className="about-inner">
+          <div className="card-front">
+            <p>Project Name</p>
+            <h3>About Project</h3>
           </div>
-          <div className="flip-text">
-            <p className="p-name">title</p>
-            <p className="p-desc">para</p>
+          <div className="card-back">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit,
+              dignissimos sunt? Est minus dicta nihil quasi blanditiis sed
+              molestias vitae beatae numquam, eveniet assumenda aspernatur id et
+              explicabo temporibus rerum.
+            </p>
           </div>
         </div>
       </div>
