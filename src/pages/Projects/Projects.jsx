@@ -16,7 +16,7 @@ const Projects = () => {
       id: 1,
       image: dental,
       title: 'Dental Clinic Management System',
-      text: 'It is a full stack webapp made using Django for backend and database and Bootstrap for frontend. It has user authentication, make and maange applications, get location, etc.',
+      text: 'It is a full stack webapp made using Django for backend and database and Bootstrap for frontend. It has user authentication, make and manage applications, get location, etc.',
       link: 'https://github.com/Jigisha15/DentalClinic',
     },
     {
