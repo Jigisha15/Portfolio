@@ -1,0 +1,53 @@
+.flipcard,
+.single-card {
+  width: 25vw;
+  height: 35vh;
+  margin: auto;
+  position: relative;
+}
+
+.flipcard {
+  perspective: 1000px;
+}
+
+.single-card {
+  text-align: center;
+  transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+  transform-style: preserve-3d;
+}
+
+.flipcard:hover .single-card {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  width: 25vw;
+  height: 35vh;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
+
+.front {
+  cursor: pointer;
+  height: 100%;
+  /* background-image: url('../../assets/crepe.jpg');
+  background-position: center center;
+  background-size: cover; */
+  backface-visibility: hidden;
+}
+
+.front img {
+  width: inherit;
+  height: inherit;
+}
+
+.back {
+  transform: rotateY(180deg);
+  position: absolute;
+  height: 35vh;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}

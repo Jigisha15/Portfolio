@@ -1,56 +1,13 @@
-.about-container {
+.outer {
   position: relative;
   z-index: 0;
   max-width: 100vw;
   height: 100vh;
   background-color: #19181a;
   color: white;
-  display: flex;
+  display: grid;
+  grid-template-columns: 25vw 25vw 25vw;
+  gap: 2vw;
   justify-content: center;
   align-items: center;
-}
-
-.about {
-  width: 25vw;
-  height: 35vh;
-  /* position: absolute; */
-  /* border: 1px solid white; */
-}
-
-.card-front,
-.card-back {
-  position: absolute;
-  color: black;
-  width: 25vw;
-  height: 35vh;
-  padding: 1vw;
-}
-
-.card-front p {
-  font-size: 2vw;
-  text-align: center;
-}
-.card-front h3 {
-  text-align: center;
-  font-size: 2vw;
-}
-
-.card-front {
-  background-color: grey;
-  transform: rotateY(180deg);
-}
-
-.card-back {
-  background-color: lightgrey;
-}
-
-.about-inner {
-  width: 25vw;
-  height: 35vh;
-  transform-style: preserve-3d;
-  transition: transform 0.5s;
-}
-
-.about:hover .about-inner {
-  transform: rotateY(180deg);
 }
