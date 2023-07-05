@@ -87,6 +87,13 @@ const Contact = () => {
           </button>
         </form>
       </div>
+
+      <p className="bottom">
+        <span className="bottom1">Email : jigishaghanekar01@gmail.com</span>
+        <span className="bottom2">
+          <span className="bottom2">Contact : 9324466165</span>
+        </span>
+      </p>
     </div>
   )
 }

@@ -8,8 +8,7 @@ const Home = () => {
       <div className="home-center">
         <h1 className="home-name">Hi I'm Jigisha Ghanekar !</h1>
         <p className="home-text">
-          I create amazing UIs, I'm a Full Stack developer and a continuous
-          learner
+          I'm a Full Stack developer and a continuous learner
         </p>
       </div>
     </div>

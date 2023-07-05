@@ -12,7 +12,7 @@
 
 .single-card {
   text-align: center;
-  transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+  transition: all 1.5s;
   transform-style: preserve-3d;
 }
 
@@ -32,9 +32,6 @@
 .front {
   cursor: pointer;
   height: 100%;
-  /* background-image: url('../../assets/crepe.jpg');
-  background-position: center center;
-  background-size: cover; */
   backface-visibility: hidden;
 }
 
@@ -47,7 +44,26 @@
   transform: rotateY(180deg);
   position: absolute;
   height: 35vh;
-  background-color: #fff;
+  background-color: grey;
   color: black;
+}
+
+.content {
+  padding: 1vw;
+}
+
+.content h2 {
+  font-size: 1.5vw;
+}
+
+.content h4 {
+  font-size: 1vw;
+  font-weight: 400;
+}
+
+.content a {
   cursor: pointer;
+  color: black;
+  font-weight: 700;
+  text-decoration-thickness: 1px;
 }

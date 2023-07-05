@@ -4,16 +4,7 @@
   height: 100vh;
   z-index: 0;
   background-color: #19181a;
-  /* background-color: #182628; */
-  /* background-color: #88bdbc; */
-  /* background-color: #222629; */
   color: white;
-  /* color: #254e58; */
-  /* color: #112d32; */
-  /* color: #17252a; */
-  /* color: #080f5b; */
-  /* background-image: url('../../assets/crepe.jpg'); */
-  /* background-color: #ebd6ee; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,15 +13,14 @@
 .home-center {
   width: 70vw;
   height: 70vh;
-  /* border: 1px solid grey; */
   z-index: 1;
   display: inline-block;
 }
 
 .home-name {
+  font-family: 'Karla', sans-serif;
   font-size: 6vw;
   z-index: 1;
-  /* display: inline-block; */
   overflow: hidden;
   white-space: nowrap;
   width: 0;

@@ -1,7 +1,6 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 
 import Navbar from './components/Navbar/Navbar'
-import Footer from './components/Footer/Footer'
 
 import Home from './pages/Home/Home'
 import Projects from './pages/Projects/Projects'
@@ -18,17 +17,6 @@ function App() {
         <Home />
         <Projects />
         <Contact />
-        {/* <Routes>
-          <Route
-            path="/home"
-            Component={Home}
-          />
-          <Route
-            path="/about"
-            Component={About}
-          />
-        </Routes> */}
-        {/* <Footer /> */}
       </Router>
     </div>
   )

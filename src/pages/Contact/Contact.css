@@ -6,8 +6,6 @@
   justify-content: center;
   align-items: center;
   background-color: #19181a;
-  /* color: white; */
-  /* color: black; */
 }
 
 .wrap {
@@ -22,7 +20,7 @@
 }
 
 .contact-text h1 {
-  font-size: 3rem;
+  font-size: 3vw;
   font-weight: 400;
   overflow: hidden;
   border-right: 1px solid black;
@@ -30,7 +28,6 @@
   margin: 0 auto;
   letter-spacing: 0.4vw;
   color: white;
-  /* letter-spacing: 0.15em; */
   animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
@@ -62,19 +59,14 @@
   height: 70vh;
   background-image: url('../../assets/keyboard.jpg');
   filter: blur(6px);
-  /* -webkit-filter: blur(8px); */
   position: relative;
   z-index: 0;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 form {
   position: absolute;
   width: 50vw;
   height: 50vh;
-  /* border: 1px solid white; */
 }
 
 .input-group {
@@ -87,7 +79,6 @@ textarea {
   width: 100%;
   height: 5vh;
   outline: 0;
-  /* border: 1px solid white; */
   border: none;
   border-bottom: 1px solid white;
   color: white;
@@ -144,4 +135,17 @@ textarea:valid ~ label {
 
 .row .input-group {
   width: 48%;
+}
+
+.bottom {
+  display: flex;
+  gap: 5rem;
+  color: white;
+}
+
+.bottom1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
 }
