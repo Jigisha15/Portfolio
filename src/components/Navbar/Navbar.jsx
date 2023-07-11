@@ -18,7 +18,7 @@ const Navbar = () => {
             className="nav-li active"
             to="https://github.com/Jigisha15"
           >
-            <SiGithub />
+            <SiGithub className="icon" />
           </NavLink>
         </li>
         <li>
@@ -26,7 +26,7 @@ const Navbar = () => {
             className="nav-li active"
             to="https://www.linkedin.com/in/jigisha-ghanekar"
           >
-            <SiLinkedin />
+            <SiLinkedin className="icon" />
           </NavLink>
         </li>
         <li>
@@ -34,7 +34,7 @@ const Navbar = () => {
             className="nav-li active"
             to="https://www.instagram.com/jigisha4_/"
           >
-            <SiInstagram />
+            <SiInstagram className="icon" />
           </NavLink>
         </li>
         <li>
@@ -42,7 +42,7 @@ const Navbar = () => {
             className="nav-li active"
             to="https://www.facebook.com/profile.php?id=100079070826837"
           >
-            <SiFacebook />
+            <SiFacebook className="icon" />
           </NavLink>
         </li>
         <li>
@@ -50,7 +50,7 @@ const Navbar = () => {
             className="nav-li active"
             to="https://goo.gl/maps/BArbUpU5Wcgv52k37"
           >
-            <IoLocationSharp />
+            <IoLocationSharp className="icon" />
           </NavLink>
         </li>
       </ul>
