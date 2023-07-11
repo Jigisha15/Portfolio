@@ -1,177 +1,8 @@
-/* .contact {
-  max-width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* background-color: #19181a; 
-}
-*/
-/*
-.wrap {
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-}
-*/
-/*
-.contact-text {
-  display: inline-block;
-  margin: 0 0 5rem 0;
-}
-*/
-/*
-.contact-text h1 {
-  font-size: 3vw;
-  font-weight: 400;
-  overflow: hidden;
-  border-right: 1px solid black;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: 0.4vw;
-  color: white;
-  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
-}*/
-/*
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: white;
-  }
-}
-*/
-/*
-.wrap {
-  display: flex;
-  align-items: center;
-}
-*/
-/*
-.contact-center {
-  width: 75vw;
-  height: 70vh;
-  background-image: url('../../assets/keyboard.jpg');
-  filter: blur(6px);
-  position: relative;
-  z-index: 0;
-}
-*/
-/*
-form {
-  position: absolute;
-  width: 50vw;
-  height: 50vh;
-}
-*/
-/*
-.input-group {
-  margin-bottom: 3vh;
-  position: relative;
-}
-*/
-/*
-input,
-textarea {
-  width: 100%;
-  height: 5vh;
-  outline: 0;
-  border: none;
-  border-bottom: 1px solid white;
-  color: white;
-  background: transparent;
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-}
-*/
-/*
-textarea {
-  height: 13vh;
-  left: 0;
-  top: 0;
-}
-*/
-/*
-label {
-  font-size: 1.3vw;
-  font-weight: 600;
-  color: white;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  padding: 10px;
-  column-rule: white;
-  cursor: text;
-  transition: 0.2s;
-}
-*/
-/*
-button {
-  font-size: 1.5vw;
-  font-weight: 600;
-  padding: 10px 0;
-  color: white;
-  outline: none;
-  background: transparent;
-  border: 1px solid white;
-  width: 100%;
-  cursor: pointer;
-}
-*/
-/*
-input:focus ~ label,
-input:valid ~ label,
-textarea:focus ~ label,
-textarea:valid ~ label {
-  top: -35px;
-  font-size: 0.9rem;
-}*/
-/*
-.row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-*/
-/*
-.row .input-group {
-  width: 48%;
-}
-*/
-/*
-.bottom {
-  display: flex;
-  gap: 5rem;
-  color: white;
-}
-*/
-/*
-.bottom1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1vw;
-} */
-
 .contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: #19181a; */
 }
 
 .contact-text h1 {
@@ -346,10 +177,8 @@ button {
     margin: 0 0 80px 0;
   }
   .contact-text h1 {
-    color: pink;
     font-size: 55px;
     letter-spacing: 6.4px;
-    /* color: white; */
   }
   .contact-center {
     width: 800px;
@@ -410,11 +239,9 @@ button {
     margin: 0 0 80px 0;
   }
   .contact-text h1 {
-    /* color: pink; */
     margin-left: 20px;
     font-size: 40px;
     letter-spacing: 6.4px;
-    color: white;
   }
   .contact-center {
     width: 600px;
@@ -467,11 +294,9 @@ button {
     margin: 0 0 80px 0;
   }
   .contact-text h1 {
-    color: pink;
     margin-left: 30px;
     font-size: 28px;
     letter-spacing: 6.4px;
-    /* color: white; */
   }
   .contact-center {
     width: 400px;
@@ -521,11 +346,9 @@ button {
     margin: 0 0 50px 0;
   }
   .contact-text h1 {
-    /* color: pink; */
     margin-left: 30px;
     font-size: 18px;
     letter-spacing: 6.4px;
-    color: white;
   }
   .contact-center {
     margin-left: 70px;

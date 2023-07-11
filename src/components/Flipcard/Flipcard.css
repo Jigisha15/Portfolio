@@ -1,73 +1,3 @@
-/* .flipcard,
-.single-card {
-  width: 25vw;
-  height: 35vh;
-  margin: auto;
-  position: relative;
-}
-
-.flipcard {
-  perspective: 1000px;
-}
-
-.single-card {
-  text-align: center;
-  transition: all 1.5s;
-  transform-style: preserve-3d;
-}
-
-.flipcard:hover .single-card {
-  transform: rotateY(180deg);
-}
-
-.front,
-.back {
-  width: 25vw;
-  height: 35vh;
-  top: 0;
-  left: 0;
-  backface-visibility: hidden;
-}
-
-.front {
-  cursor: pointer;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.front img {
-  width: inherit;
-  height: inherit;
-}
-
-.back {
-  transform: rotateY(180deg);
-  position: absolute;
-  height: 35vh;
-  background-color: grey;
-  color: black;
-}
-
-.content {
-  padding: 1vw;
-}
-
-.content h2 {
-  font-size: 1.5vw;
-}
-
-.content h4 {
-  font-size: 1vw;
-  font-weight: 400;
-}
-
-.content a {
-  cursor: pointer;
-  color: black;
-  font-weight: 700;
-  text-decoration-thickness: 1px;
-} */
-
 .flipcard {
   perspective: 1000px;
 }
@@ -106,7 +36,6 @@
   .single-card {
     width: 380px;
     height: 420px;
-    /* margin: auto; */
     position: relative;
   }
   .content {
@@ -145,7 +74,6 @@
   .single-card {
     width: 300px;
     height: 270px;
-    /* margin: auto; */
     position: relative;
   }
   .content {
@@ -184,7 +112,6 @@
   .single-card {
     width: 350px;
     height: 270px;
-    /* margin: auto; */
     position: relative;
   }
   .content {
@@ -223,7 +150,6 @@
   .single-card {
     width: 380px;
     height: 290px;
-    /* margin: auto; */
     position: relative;
   }
   .content {
@@ -262,7 +188,6 @@
   .single-card {
     width: 350px;
     height: 270px;
-    /* margin: auto; */
     position: relative;
   }
   .content {
