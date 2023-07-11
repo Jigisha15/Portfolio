@@ -42,8 +42,8 @@
   }
   .outer {
     display: grid;
-    grid-template-columns: 25vw 25vw 25vw;
-    gap: 2.5vw;
+    grid-template-columns: 400px 400px 400px;
+    gap: 25px;
     justify-content: center;
     align-items: center;
   }
@@ -71,8 +71,8 @@
   }
   .outer {
     display: grid;
-    grid-template-columns: 30vw 30vw;
-    gap: 2.5vw;
+    grid-template-columns: 360px 360px;
+    gap: 28px;
     justify-content: center;
     align-items: center;
   }
@@ -86,8 +86,8 @@
   }
   .outer {
     display: grid;
-    grid-template-columns: 30vw 30vw;
-    gap: 2.5vw;
+    /* grid-template-columns: 30vw 30vw; */
+    gap: 40px;
     justify-content: center;
     align-items: center;
   }
@@ -102,7 +102,7 @@
   .outer {
     display: grid;
     /* grid-template-columns: 25vw; */
-    gap: 2.5vw;
+    gap: 40px;
     justify-content: center;
     align-items: center;
   }
