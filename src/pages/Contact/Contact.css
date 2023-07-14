@@ -347,11 +347,11 @@ button {
   }
   .contact-text h1 {
     margin-left: 30px;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 6.4px;
   }
   .contact-center {
-    margin-left: 70px;
+    margin-left: 40px;
     width: 350px;
     height: 600px;
   }
@@ -391,4 +391,16 @@ button {
     margin-top: 25px;
     gap: 10px;
   }
+}
+
+.up {
+  width: 45px;
+  height: 45px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 20px 0 0 0;
+}
+
+.up:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }

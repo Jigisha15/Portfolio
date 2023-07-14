@@ -1,6 +1,8 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 
+import { SlArrowUp } from 'react-icons/sl'
+
 import './Contact.css'
 
 const Contact = () => {
@@ -87,6 +89,9 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <button className="up">
+        <SlArrowUp />
+      </button>
 
       <p className="bottom">
         <span className="bottom1">Email : jigishaghanekar01@gmail.com</span>
