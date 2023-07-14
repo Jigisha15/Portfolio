@@ -346,8 +346,9 @@ button {
     margin: 0 0 50px 0;
   }
   .contact-text h1 {
-    margin-left: 30px;
+    margin: 30px 0 20px 30px;
     font-size: 12px;
+    font-weight: 600;
     letter-spacing: 6.4px;
   }
   .contact-center {
