@@ -6,6 +6,12 @@ import { SlArrowUp } from 'react-icons/sl'
 import './Contact.css'
 
 const Contact = () => {
+  // for scroll to top button
+  const handleTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+  }
+
+  // for email
   const form = useRef()
 
   const sendEmail = (e) => {
@@ -89,7 +95,10 @@ const Contact = () => {
           </button>
         </form>
       </div>
-      <button className="up">
+      <button
+        className="up"
+        onClick={handleTop}
+      >
         <SlArrowUp />
       </button>
 
