@@ -30,6 +30,7 @@ const Projects = () => {
       image: dairy,
       title: 'Dairy Management App',
       text: 'This is my first Django project that I made with the help of a YouTube tutorial of which the link is provided in my GitHub ReadMe.',
+      link: 'https://github.com/Jigisha15/Dairy-Management',
     },
     {
       image: food,
