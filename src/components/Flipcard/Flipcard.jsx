@@ -16,7 +16,12 @@ const Flipcard = ({ image, title, text, link }) => {
           <div className="content">
             <h2>{title}</h2>
             <h4>{text}</h4>
-            <a href={link}>Repository</a>
+            <a
+              href={link}
+              target="_blank"
+            >
+              Repository
+            </a>
           </div>
         </div>
       </div>
