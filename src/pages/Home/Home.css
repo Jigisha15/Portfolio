@@ -1,93 +1,283 @@
-.home {
-  max-width: 100vw;
-  position: relative;
-  height: 100vh;
-  z-index: 0;
+.home{
   color: white;
+  position: relative;
+}
+
+.bg-image img{
+  position: absolute;
+  /* top: 2rem; */
+  /* right: 0; */
+  /* width: 38rem; */
+  /* height: 38rem; */
+
+}
+
+.home-intro{
+  position: absolute;
+  top: 2rem;
+  /* left: 2rem; */
+  /* width: 55.8rem; */
+  /* height: 30rem; */
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
-.home-name {
-  overflow: hidden;
-  white-space: nowrap;
-  width: 0;
-  animation: typing;
-  animation-duration: 3s;
-  animation-timing-function: steps(30, end);
-  animation-fill-mode: both;
+.hello{
+  color: #907659;
+  /* margin: 0 0 -1rem; */
+  text-transform: uppercase;
+  /* font-size: 1.2rem; */
+  letter-spacing: 1.5px;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
+.home-intro .name{
+  margin: 0;
+  /* font-size: 5.7rem; */
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.home-intro .name span{
+  color: #907659;
+}
+
+.qualities{
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.current{
+  width: 27rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  border-top: 1px solid #B5A896;
+  padding: 0.4rem 0;
+  /* margin: 5rem 0 1.5rem; */
+}
+
+.buttons{
+  display: flex;
+  /* gap: 2rem; */
+}
+
+.buttons button{
+  /* width: 10rem; */
+  /* height: 3.5rem; */
+  text-transform: uppercase;
+  font-weight: 500;
+  /* font-size: 0.8rem; */
+  letter-spacing: 2px;
+  border-radius: 5rem;
+  transition: all 0.5s ease;
+}
+
+.buttons button:hover{
+  background-color: #907659;
+  border: 1px solid #907659;
+}
+
+
+@media(max-width:576px){
+  .bg-image img{
+    top: 0;
+    width: 100vw;
+    height: 100vh;
   }
-  to {
-    width: 100%;
+  .home-intro{
+    width: 100vw;
+    height: 100vh;
+    left: 1rem;
+    background-color: rgba(0,0,0,0.5);
+  }
+  .hello{
+    font-size: 1rem;
+    margin: 0 0 -0.5rem;
+  }
+  .home-intro .name{
+    font-size: 3.2rem;
+  }
+  .qualities{
+    font-size: 1.4rem;
+  }
+  .current{
+    font-size: 1.1rem;
+    margin: 3.5rem 0 1.5rem;
+  }
+  .buttons{
+    gap: 1rem;
+  }
+  .buttons button{
+    width: 7.5rem;
+    height: 2.5rem;
+    font-size: 0.65rem;
   }
 }
 
-@media (min-width: 1200px) {
-  .home-name {
-    font-size: 95px;
+@media(min-width:576px){
+  .bg-image img{
+    top: 6rem;
+    right: 0;
+    width: 30rem;
+    height: 30rem;
   }
-  .home-text {
-    font-size: 45px;
+  .home-intro{
+    width: 100vw;
+    height: 100vh;
+    left: 1rem;
+    /* background-color: rgba(0,0,0,0.5); */
+  }
+  .hello{
+    font-size: 1rem;
+    margin: 0 0 -0.5rem;
+  }
+  .home-intro .name{
+    font-size: 3.4rem;
+  }
+  .qualities{
+    font-size: 1.5rem;
+  }
+  .current{
+    margin: 3.5rem 0 1.5rem;
+  }
+  .buttons{
+    gap: 1rem;
+  }
+  .buttons button{
+    width: 8rem;
+    height: 2.7rem;
+    font-size: 0.7rem;
+  }
+
+}
+
+@media(min-width:768px){
+  .bg-image img{
+    top: 6rem;
+    right: 0;
+    width: 30rem;
+    height: 30rem;
+  }
+  .home-intro{
+    width: 100vw;
+    height: 100vh;
+    left: 1rem;
+    /* background-color: rgba(0,0,0,0.5); */
+  }
+  .hello{
+    font-size: 1.2rem;
+    margin: 0 0 -0.5rem;
+  }
+  .home-intro .name{
+    font-size: 4.5rem;
+  }
+  .qualities{
+    font-size: 2rem;
+  }
+  .current{
+    margin: 4.5rem 0 1.5rem;
+  }
+  .buttons{
+    gap: 1rem;
+  }
+  .buttons button{
+    width: 9rem;
+    height: 3.2rem;
+    font-size: 0.8rem;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-  .home-name {
-    margin-left: 50px;
-    font-size: 75px;
+@media(min-width:992px){
+  .bg-image img{
+    top: 2rem;
+    right: 0;
+    width: 38rem;
+    height: 38rem;
   }
-  .home-text {
-    margin-left: 50px;
-    font-size: 40px;
+  .home-intro{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    /* background-color: rgba(0,0,0,0.5); */
   }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-  .home-name {
-    margin-left: 50px;
-    font-size: 60px;
+  .hello{
+    font-size: 1.4rem;
+    margin: 0 0 -0.6rem 1rem;
   }
-  .home-text {
-    margin-left: 50px;
-    font-size: 45px;
+  .home-intro .name{
+    font-size: 5rem;
+    margin: 0 0 0 1rem;
   }
-}
-
-@media (min-width: 600px) and (max-width: 768px) {
-  .home-name {
-    margin-left: 30px;
-    font-size: 40px;
+  .qualities{
+    font-size: 1.8rem;
+    margin: 0 0 0 1rem;
   }
-  .home-text {
-    margin-left: 30px;
-    font-size: 45px;
+  .current{
+    margin: 3.5rem 0 1.5rem 1rem;  
+    width: 31rem;
+    font-size: 1.4rem;
   }
-}
-
-@media (max-width: 600px) and (min-width: 400px) {
-  .home-name {
-    margin-left: 20px;
-    font-size: 30px;
+  .buttons{
+    margin: 0 0 0 1rem;
+    gap: 1.2rem;
   }
-  .home-text {
-    margin-left: 20px;
-    font-size: 23px;
+  .buttons button{
+    width: 10rem;
+    height: 3rem;
+    font-size: 0.85rem;
   }
 }
 
-@media (max-width: 400px) and (min-width: 250px) {
-  .home-name {
-    margin-left: 20px;
-    font-size: 20px;
+@media(min-width:1200px){
+  .bg-image img{
+    top: 1rem;
+    right: 0;
+    width: 38rem;
+    height: 40rem;
   }
-  .home-text {
-    margin-left: 20px;
-    font-size: 13px;
+  .home-intro{
+    width: 100vw;
+    top: 6rem;
+    left: 2rem;
+    width: 55.8rem;
+    height: 30rem;
+  }
+  .hello{
+    font-size: 1.2rem;
+    margin: 0 0 -1rem;
+    letter-spacing: 1.5px;
+  }
+  .home-intro .name{
+    font-size: 5.7rem;
+    margin: 0;
+  }
+  .qualities{
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  .current{
+    margin: 5rem 0 1.5rem;
+    width: 31rem;
+    font-size: 1.4rem;
+  }
+  .buttons{
+    margin: 0;
+    gap: 2rem;
+  }
+  .buttons button{
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 0.8rem;
   }
 }
+
+@media(min-width:1400px){
+
+}
+

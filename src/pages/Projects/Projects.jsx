@@ -60,26 +60,26 @@ const Projects = () => {
 
   console.log(data)
 
-  return (
-    <div className="container">
-      <h1 className="outer-text">Here are my Projects</h1>
-      <div className="outer">
-        {data.map((item, index) => (
-          <div
-            className="project"
-            key={index}
-          >
-            <Flipcard
-              image={item.image}
-              title={item.title}
-              text={item.text}
-              link={item.link}
-            />
-          </div>
-        ))}
-      </div>
-    </div>
-  )
+  // return (
+  //   <div className="container">
+  //     <h1 className="outer-text">Here are my Projects</h1>
+  //     <div className="outer">
+  //       {data.map((item, index) => (
+  //         <div
+  //           className="project"
+  //           key={index}
+  //         >
+  //           <Flipcard
+  //             image={item.image}
+  //             title={item.title}
+  //             text={item.text}
+  //             link={item.link}
+  //           />
+  //         </div>
+  //       ))}
+  //     </div>
+  //   </div>
+  // )
 }
 
 export default Projects
