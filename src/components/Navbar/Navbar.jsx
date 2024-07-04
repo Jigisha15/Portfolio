@@ -1,11 +1,11 @@
 import './Navbar.css'
-import {  NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="name">
-        Jigisha <span className='surname'>Ghanekar</span>
+        Jigisha <span className="surname">Ghanekar</span>
       </div>
       <ul>
         <li>
