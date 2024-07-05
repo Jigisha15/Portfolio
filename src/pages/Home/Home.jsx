@@ -16,7 +16,7 @@ const Home = () => {
         <h1 className='qualities'>A Developer</h1>
         <p className="current">A 4th year Computer Science Undergrad</p>
         <div className="buttons">
-          <button>My Socials</button>
+          <button>My Resume</button>
           <button>My Projects</button>
         </div>
       </div>
