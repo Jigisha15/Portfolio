@@ -1,4 +1,5 @@
 import './Home.css'
+import resume from '../../assets/jigishasResume.pdf'
 
 const Home = () => {
   return (
@@ -16,7 +17,9 @@ const Home = () => {
         <h1 className='qualities'>A Developer</h1>
         <p className="current">A 4th year Computer Science Undergrad</p>
         <div className="buttons">
-          <button>My Resume</button>
+          <button>
+            <a href={resume} download='resume'>My Resume</a>
+          </button>
           <button>My Projects</button>
         </div>
       </div>

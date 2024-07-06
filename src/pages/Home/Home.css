@@ -78,6 +78,11 @@
   transition: all 0.5s ease;
 }
 
+.buttons button a{
+  text-decoration: none;
+  color: white;
+}
+
 .buttons button:hover{
   background-color: #907659;
   border: 1px solid #907659;

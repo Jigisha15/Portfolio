@@ -14,8 +14,6 @@ const Projects = () => {
   }
 
   const filteredProjects = projects.filter((projectGroup) => {
-    // check if no other framework is selected
-    // if(!framework) return true
     // filter projects based on the selected framework
     return projectGroup[0].type === framework;
   })
@@ -38,7 +36,7 @@ const Projects = () => {
           {filteredProjects.map((projectGroup) => (
             <div className="project-cards-inner" key={projectGroup[0].type}>
               {projectGroup.map((project) => (
-                <Procard key={project.id} name={project.name} desc={project.desc} link={project.link} />
+                <Procard key={project.id} name={project.name} desc={project.desc} link={project.link} ilink={project.ilink} />
               ))}
             </div>
           ))}

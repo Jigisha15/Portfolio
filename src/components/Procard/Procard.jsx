@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
 import './Procard.css'
 
-const Procard = ({ name, desc, link}) => {
+const Procard = ({ ilink, name, desc, link}) => {
   return (
     <div className="procard">
       <img
-        src={require('../../assets/blog.png')}
+        src={require(`${ilink}`)}
         alt=""
         />
       <h1 className="project-name">{ name }</h1>
