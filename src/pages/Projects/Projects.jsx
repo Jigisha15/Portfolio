@@ -24,7 +24,7 @@ const Projects = () => {
         <h1>Projects</h1>
         <h3>Projects</h3>
       </div>
-
+{/* 
       <div className="project-cards-div">
         <div className="frameworks">
           <button className="fw" onClick={()=>handleClick('react')}>ReactJS</button>
@@ -36,12 +36,12 @@ const Projects = () => {
           {filteredProjects.map((projectGroup) => (
             <div className="project-cards-inner" key={projectGroup[0].type}>
               {projectGroup.map((project) => (
-                <Procard key={project.id} name={project.name} desc={project.desc} link={project.link} ilink={project.ilink} />
+                <Procard key={project.id} name={project.name} desc={project.desc} link={project.link} />
               ))}
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

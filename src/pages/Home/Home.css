@@ -1,291 +1,278 @@
-.home{
+/* 475px, 640px, 768px, 1024px, 1280px, 1536px */
+
+.homepage {
+  max-width: 100vw;
   color: white;
+}
+
+.home-enclose {
+  max-width: 100vw;
   position: relative;
-  margin: 0rem;
 }
 
-.bg-image img{
+.home-left {
+  height: 30rem;
   position: absolute;
-  /* top: 2rem; */
-  /* right: 0; */
-  /* width: 38rem; */
-  /* height: 38rem; */
-
-}
-
-.home-intro{
-  position: absolute;
-  top: 2rem;
-  /* left: 2rem; */
-  /* width: 55.8rem; */
-  /* height: 30rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.hello{
+.home-right,
+.home-right img {
+  position: absolute;
+  right: 0;
+}
+
+.hello {
   color: #907659;
-  /* margin: 0 0 -1rem; */
   text-transform: uppercase;
-  /* font-size: 1.2rem; */
   letter-spacing: 1.5px;
 }
 
-.home-intro .name{
-  margin: 0;
-  /* font-size: 5.7rem; */
+.home-name {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
 }
 
-.home-intro .name span{
+.home-name span {
   color: #907659;
 }
 
-.qualities{
-  margin: 0;
+.qualities {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-.current{
-  width: 27rem;
-  font-size: 1.2rem;
+.current {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
-  word-spacing: 5px;
-  border-top: 1px solid #B5A896;
-  padding: 0.4rem 0;
-  /* margin: 5rem 0 1.5rem; */
+  border-top: 1px solid #b5a896;
 }
 
-.buttons{
+.buttons {
   display: flex;
-  /* gap: 2rem; */
 }
 
-.buttons button{
-  /* width: 10rem; */
-  /* height: 3.5rem; */
+.button {
+  color: white;
+  outline: none;
+  background: transparent;
+  border: 1px solid white;
+  cursor: pointer;
   text-transform: uppercase;
   font-weight: 500;
-  /* font-size: 0.8rem; */
-  letter-spacing: 2px;
   border-radius: 5rem;
   transition: all 0.5s ease;
 }
 
-.buttons button a{
+.buttons button a {
   text-decoration: none;
   color: white;
 }
 
-.buttons button:hover{
+.buttons button:hover {
   background-color: #907659;
   border: 1px solid #907659;
 }
+/* 475px, 640px, 768px, 1024px, 1280px, 1536px */
 
-
-@media(max-width:576px){
-  .bg-image img{
-    top: 0;
-    width: 100vw;
-    height: 100vh;
+@media screen and (max-width: 600px) {
+  /* phone screen */
+  .homepage {
+    max-width: 600px;
   }
-  .home-intro{
-    width: 100vw;
-    height: 100vh;
-    left: 1rem;
-    background-color: rgba(0,0,0,0.5);
+  .home-right,
+  .home-right img {
+    width: 30rem;
+    height: 30rem;
+    z-index: 0;
   }
-  .hello{
+  .home-left {
+    width: 100vw;
+    height: 30rem;
+    z-index: 1;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .hello {
     font-size: 1rem;
-    margin: 0 0 -0.5rem;
+    margin: 0 0 -0.3em 2rem;
   }
-  .home-intro .name{
-    font-size: 3.2rem;
+  .home-name {
+    margin: 0 0 0 2rem;
+    font-size: 1.9rem;
   }
-  .qualities{
-    font-size: 1.4rem;
+  .qualities {
+    font-size: 1.2rem;
+    margin: 0 0 0 2rem;
   }
-  .current{
-    font-size: 1.1rem;
-    margin: 3.5rem 0 1.5rem;
+  .current {
+    max-width: 85%;
+    font-size: 0.84rem;
+    word-spacing: 4px;
+    padding: 0.3rem 0;
+    margin: 3rem 0 1.5rem 2rem;
   }
-  .buttons{
+  .buttons {
+    display: flex;
     gap: 1rem;
+    margin: 0 0 0 2rem;
   }
-  .buttons button{
-    width: 7.5rem;
+  .button {
+    width: 7rem;
     height: 2.5rem;
-    font-size: 0.65rem;
-  }
-}
-
-@media(min-width:576px){
-  .bg-image img{
-    top: 6rem;
-    right: 0;
-    width: 30rem;
-    height: 30rem;
-  }
-  .home-intro{
-    width: 42rem;
-    height: 20rem;
-    top: 10rem;
-    left: 0;
-    left: 1rem;
-    /* background-color: rgba(0,0,0,0.5); */
-  }
-  .hello{
-    font-size: 1rem;
-    margin: 0 0 -0.5rem;
-  }
-  .home-intro .name{
-    font-size: 3.4rem;
-  }
-  .qualities{
-    font-size: 1.5rem;
-  }
-  .current{
-    margin: 3.5rem 0 1.5rem;
-  }
-  .buttons{
-    gap: 1rem;
-  }
-  .buttons button{
-    width: 8rem;
-    height: 2.7rem;
     font-size: 0.7rem;
+    letter-spacing: 1px;
   }
-
 }
 
-@media(min-width:768px){
-  .bg-image img{
-    top: 6rem;
-    right: 0;
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .homepage {
+    max-width: 100vw;
+  }
+  .home-right,
+  .home-right img {
     width: 30rem;
     height: 30rem;
+    top: 1.5rem;
   }
-  .home-intro{
+  .home-left {
     width: 100vw;
-    height: 100vh;
-    left: 1rem;
-    /* background-color: rgba(0,0,0,0.5); */
-  }
-  .hello{
-    font-size: 1.2rem;
-    margin: 0 0 -0.5rem;
-  }
-  .home-intro .name{
-    font-size: 4.5rem;
-  }
-  .qualities{
-    font-size: 2rem;
-  }
-  .current{
-    margin: 4.5rem 0 1.5rem;
-  }
-  .buttons{
-    gap: 1rem;
-  }
-  .buttons button{
-    width: 9rem;
-    height: 3.2rem;
-    font-size: 0.8rem;
-  }
-}
-
-@media(min-width:992px){
-  .bg-image img{
+    z-index: 1;
     top: 2rem;
-    right: 0;
-    width: 38rem;
-    height: 38rem;
-  }
-  .home-intro{
-    width: 100vw;
-    height: 100vh;
-    top: 0;
     left: 0;
-    /* background-color: rgba(0,0,0,0.5); */
+    background-color: rgba(0, 0, 0, 0.5);
   }
-  .hello{
-    font-size: 1.4rem;
-    margin: 0 0 -0.6rem 1rem;
+  .hello {
+    font-size: 1.1rem;
+    margin: 0 0 -0.3em 2rem;
   }
-  .home-intro .name{
-    font-size: 5rem;
-    margin: 0 0 0 1rem;
+  .home-name {
+    margin: 0 0 0 2rem;
+    font-size: 3rem;
   }
-  .qualities{
-    font-size: 1.8rem;
-    margin: 0 0 0 1rem;
+  .qualities {
+    font-size: 1.3rem;
+    margin: 0 0 0 2rem;
   }
-  .current{
-    margin: 3.5rem 0 1.5rem 1rem;  
-    width: 31rem;
-    font-size: 1.4rem;
+  .current {
+    width: 30rem;
+    font-size: 1.1rem;
+    word-spacing: 4px;
+    padding: 0.3rem 0;
+    margin: 3rem 0 1.5rem 2rem;
   }
-  .buttons{
-    margin: 0 0 0 1rem;
-    gap: 1.2rem;
+  .buttons {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0 0 0 2rem;
   }
-  .buttons button{
-    width: 10rem;
-    height: 3rem;
-    font-size: 0.85rem;
-  }
-}
-
-@media(min-width:1200px){
-  .bg-image img{
-    top: 1rem;
-    right: 0;
-    width: 38rem;
-    height: 40rem;
-  }
-  .home-intro{
-    width: 100vw;
-    top: 6rem;
-    left: 2rem;
-    width: 55.8rem;
-    height: 30rem;
-  }
-  .hello{
-    font-size: 1.2rem;
-    margin: 0 0 -1rem;
-    letter-spacing: 1.5px;
-  }
-  .home-intro .name{
-    font-size: 5.7rem;
-    margin: 0;
-  }
-  .qualities{
-    font-size: 1.8rem;
-    margin: 0;
-  }
-  .current{
-    margin: 5rem 0 1.5rem;
-    width: 31rem;
-    font-size: 1.4rem;
-  }
-  .buttons{
-    margin: 0;
-    gap: 2rem;
-  }
-  .buttons button{
-    width: 10rem;
-    height: 3.5rem;
+  .button {
+    width: 9rem;
+    height: 2.9rem;
     font-size: 0.8rem;
+    letter-spacing: 1px;
   }
 }
 
-@media(min-width:1400px){
-
+@media screen and (max-width: 1280px) and (min-width: 900px) {
+  .homepage {
+    max-width: 100vw;
+    height: 200vh;
+  }
+  .home-right,
+  .home-right img {
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    top: 4rem;
+  }
+  .home-left {
+    width: 100vw;
+    z-index: 1;
+    top: 4rem;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .hello {
+    font-size: 1.4rem;
+    margin: 0 0 -0.3em 2rem;
+  }
+  .home-name {
+    margin: 0 0 0 2rem;
+    font-size: 3.7rem;
+  }
+  .qualities {
+    font-size: 1.5rem;
+    margin: 0 0 0 2rem;
+  }
+  .current {
+    width: 35rem;
+    font-size: 1.25rem;
+    word-spacing: 4px;
+    padding: 0.3rem 0;
+    margin: 4rem 0 1.5rem 2rem;
+  }
+  .buttons {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0 0 0 2rem;
+  }
+  .button {
+    width: 9rem;
+    height: 2.9rem;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
 }
 
+@media screen and (min-width: 1280px) {
+  .homepage {
+    max-width: 100vw;
+  }
+  .home-right,
+  .home-right img {
+    width: 40rem;
+    height: 40rem;
+    top: 1.1rem;
+  }
+  .home-left {
+    width: 60rem;
+    z-index: 1;
+    top: 5rem;
+    left: 0;
+  }
+  .hello {
+    font-size: 1.4rem;
+    margin: 0 0 -0.3em 3rem;
+  }
+  .home-name {
+    margin: 0 0 0 3rem;
+    font-size: 5rem;
+  }
+  .qualities {
+    font-size: 1.5rem;
+    margin: 0 0 0 3rem;
+  }
+  .current {
+    width: 40rem;
+    font-size: 1.5rem;
+    word-spacing: 5px;
+    padding: 0.3rem 0;
+    margin: 4rem 0 1.5rem 3rem;
+  }
+  .buttons {
+    /* display: flex; */
+    gap: 1.5rem;
+    margin: 0 0 0 2rem;
+  }
+  .button {
+    width: 12rem;
+    height: 3.2rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+}

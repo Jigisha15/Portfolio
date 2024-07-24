@@ -7,7 +7,7 @@ const projects = [
       name: 'Food Ordering Website',
       desc: 'E Commerce App made with ReactJS to order food',
       link: 'https://github.com/Jigisha15/Food',
-      ilink: '../../assets/food.png'
+      ilink: '../../assets/food.png',
     },
     {
       id: 2,

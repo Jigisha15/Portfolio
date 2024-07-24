@@ -1,29 +1,34 @@
 .projects{
   width: 100vw;
-  /* height: 100vh; */
+  position: relative;
+  /* min-height: 15rem; */
+  /* max-height: fit-content; */
+  /* height: fit-content; */
   color: white;
   margin: 0 0 2rem;
   padding: 0;
-  position: absolute;
-  top: 97vh;
+  /* position: absolute; */
+  /* top: 97vh; */
+  /* overflow: hidden; */
+
 }
 
 .project-title{
   width: 100vw;
-  position: relative;
-  display: flex;
+  /* position: relative; */
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  margin: 2.5rem 0 0;
+  /* margin: 2.5rem 0 0; */
 }
 
 .project-title h1{
-  position: absolute;
+  /* position: absolute; */
   color: rgba(255,255,255,0.1);
   font-size: 4rem;
   font-weight: 700;
-  margin: 0;
+  /* margin: 0; */
 }
 
 .project-title h3{
@@ -58,6 +63,8 @@
   height: 2rem;
   display: flex;
   align-items: center;
+  background: transparent;
+  cursor: pointer;
   /* border-bottom: 0; */
   text-decoration: none;
   text-transform: uppercase;

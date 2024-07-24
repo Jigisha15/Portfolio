@@ -16,8 +16,8 @@ function App() {
       <Router>
         <Navbar />
         <Home />
-        <Projects />
-        <Contact />
+        {/* <Projects /> */}
+        {/* <Contact /> */}
         <Routes>
           <Route
             path="/home"

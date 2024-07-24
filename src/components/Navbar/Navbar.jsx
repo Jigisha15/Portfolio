@@ -1,7 +1,16 @@
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
+import { animateScroll as scroll } from 'react-scroll'
 
 const Navbar = () => {
+  const scrollToSection = (offset) => {
+    scroll.scrollTo(offset, {
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart',
+    })
+  }
+
   return (
     <div className="navbar">
       <div className="name">
@@ -12,7 +21,8 @@ const Navbar = () => {
           <NavLink
             className="nav-links"
             activeClassName="active"
-            to="/"
+            // to="/"
+            onClick={() => scrollToSection(10)}
           >
             Home
           </NavLink>
@@ -21,7 +31,8 @@ const Navbar = () => {
           <NavLink
             className="nav-links"
             activeClassName="active"
-            to="about"
+            // to="about"
+            onClick={() => scrollToSection(50)}
           >
             About Me
           </NavLink>
@@ -30,7 +41,8 @@ const Navbar = () => {
           <NavLink
             className="nav-links"
             activeClassName="active"
-            to="project"
+            // to="project"
+            onClick={() => scrollToSection(700)}
           >
             Projects
           </NavLink>
@@ -39,7 +51,8 @@ const Navbar = () => {
           <NavLink
             className="nav-links"
             activeClassName="active"
-            to="contact"
+            // to="contact"
+            onClick={() => scrollToSection(1400)}
           >
             Contact
           </NavLink>
