@@ -20,9 +20,9 @@ const Navbar = () => {
         <li>
           <NavLink
             className="nav-links"
-            activeClassName="active"
+            // activeClassname="active"
             // to="/"
-            onClick={() => scrollToSection(10)}
+            onClick={() => scrollToSection(0)}
           >
             Home
           </NavLink>
@@ -30,7 +30,7 @@ const Navbar = () => {
         <li>
           <NavLink
             className="nav-links"
-            activeClassName="active"
+            // activeClassName="active"
             // to="about"
             onClick={() => scrollToSection(50)}
           >
@@ -40,9 +40,9 @@ const Navbar = () => {
         <li>
           <NavLink
             className="nav-links"
-            activeClassName="active"
+            // activeClassName="active"
             // to="project"
-            onClick={() => scrollToSection(700)}
+            onClick={() => scrollToSection(500)}
           >
             Projects
           </NavLink>
@@ -50,7 +50,7 @@ const Navbar = () => {
         <li>
           <NavLink
             className="nav-links"
-            activeClassName="active"
+            // activeClassName="active"
             // to="contact"
             onClick={() => scrollToSection(1400)}
           >

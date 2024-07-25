@@ -16,7 +16,7 @@ function App() {
       <Router>
         <Navbar />
         <Home />
-        {/* <Projects /> */}
+        <Projects />
         {/* <Contact /> */}
         <Routes>
           <Route

@@ -142,7 +142,7 @@
   .home-left {
     width: 100vw;
     z-index: 1;
-    top: 2rem;
+    top: 3rem;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
   }
@@ -193,7 +193,7 @@
   .home-left {
     width: 100vw;
     z-index: 1;
-    top: 4rem;
+    top: 8rem;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
   }

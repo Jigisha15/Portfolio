@@ -1,53 +1,20 @@
 .procard{
     width: 20rem;
-    /* height: 22rem; */
-    border-radius: 1rem 1rem 0 0;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 0;
-    /* box-shadow: 0px 4px 10px 4px rgba(255,255,255,0.1); */
-    border: 1px solid rgba(255,255,255,0.2);
-}
-
-.procard img{
-    width: 20rem;
-    height: 13rem;
-    border-radius: 1rem 1rem 0 0;
-}
-
-.procard h1{
-    margin:  0.5rem 0 1rem 1rem;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.procard p{
-    font-weight: 400;
-    width: 18rem;
-    margin:  0 0 0 1rem;
-    /* text-align: justify; */
-    color: rgba(255,255,255,0.4);
-}
-
-
-.repo{
-    width: 10rem;
-    text-align: center;
-    margin:  1rem 0 1.5rem 1rem;
-    padding: 0.5rem 0;
+    padding: 0 0.5rem;
+    border: 1px solid white;
     color: white;
     text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    border: 1px solid white;
-    border-radius: 0.3rem;
     transition: all 0.3s ease;
 }
 
-.repo:hover{
-    border: 1px solid #000000;
-    background-color: rgba(255,255,255,0.2);
+.procard h1{
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.procard:hover{
+    border: 1px solid rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.5);
+    color: black;
 }
