@@ -1,7 +1,108 @@
 .contact{
-  position: absolute;
-  top: 120vh;
+  position: relative;
   max-width: 100vw;
-  height: 100vh;
+  top: 42.5rem;
+  margin: 0 0 15rem 0;
+  height: fit-content;
   color: white;
+  /* border: 1px solid white; */
+}
+
+.contact-title{
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.09);
+  /* color: rgba(144, 118, 89, 0.2); */
+  font-weight: 700;
+  position: absolute;
+  top: 0.5rem;
+  left: 37rem;
+  margin: 0;
+}
+
+.small-contact-title{
+  position: absolute;
+  left: 41.9rem;
+  top: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #b5a896;
+}
+
+.contact-form{
+  width: 40rem;
+  /* height: 25rem; */
+  height: 10rem;
+  /* border: 1px solid white; */
+  position: absolute;
+  top: 6rem;
+  left: 28rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-title{
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  text-transform: uppercase;
+  color: #907659;
+}
+
+.first, .second, .third{
+  width: inherit;
+  height: 6rem;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  /* margin: 0.5rem; */
+  /* gap: 2rem; */
+}
+
+.display-form{
+  width: 38rem;
+  display: flex;
+  /* align-items: flex-start; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.display-form label{
+  font-size: 1.2rem;
+}
+
+.display-form input{
+  width: 19rem;
+  height: 3rem;
+  background-color: rgba(255,255,255,0.1);
+  color: white;
+  border: none;
+}
+
+.display-form textarea{
+  width: 38rem;
+  height: 5rem;
+  background-color: rgba(255,255,255,0.1);
+  border: none;
+}
+
+.submit-btn{
+  font-size: 1.1rem;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 0.8rem 4rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  transition: all 0.3s ease;
+  margin: 1rem 0 0 0;
+}
+
+.submit-btn:hover{
+  background-color: #907659;
+  border: 1px solid #907659;
 }

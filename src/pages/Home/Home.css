@@ -181,7 +181,7 @@
 @media screen and (max-width: 1280px) and (min-width: 900px) {
   .homepage {
     max-width: 100vw;
-    height: 200vh;
+    /* height: 200vh; */
   }
   .home-right,
   .home-right img {

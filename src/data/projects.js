@@ -40,9 +40,17 @@ const projects = [
     link: 'https://github.com/Jigisha15/Cakery',
     ilink: '../../assets/cakery.png',
   },
-  // NEXTJS-1
   {
     id: 6,
+    type: 'react',
+    name: 'JP Cut & Weld',
+    desc: 'Indulge your sweet tooth anytime, anywhere. Our bakery app brings freshly baked goodness to your fingertips. Browse delectable treats, customize your order, and enjoy convenient delivery or in-store pickup. Savor every bite!',
+    link: 'https://github.com/Jigisha15/Cakery',
+    ilink: '../../assets/cakery.png',
+  },
+  // NEXTJS-1
+  {
+    id: 7,
     type: 'next',
     name: 'Xzect Clone',
     desc: 'Mastering Next.js with a website clone. Dive into the world of React and Next.js by building a replica of your favorite website. Learn about server-side rendering, static site generation, and dynamic routing. Showcase your skills and create a powerful online presence.',
@@ -51,7 +59,7 @@ const projects = [
   },
   //   DJANGO-2
   {
-    id: 7,
+    id: 8,
     type: 'django',
     name: 'Dairy Management App',
     desc: 'Streamline your dairy operations. Manage your farm efficiently with our Django-powered app. Track livestock, monitor production, analyze data, and make informed decisions. Optimize your dairy business and boost profitability.',
@@ -59,7 +67,7 @@ const projects = [
     ilink: '../../assets/dairy.png',
   },
   {
-    id: 8,
+    id: 9,
     type: 'django',
     name: 'Dental Management App',
     desc: 'Streamline your dental practice. Efficiently manage patient records, appointments, and inventory with our Django-based app. Improve operational efficiency, enhance patient experience, and grow your dental clinic. Take control of your practice today.',
@@ -68,7 +76,7 @@ const projects = [
   },
   //   FLASK-3
   {
-    id: 9,
+    id: 10,
     type: 'flask',
     name: 'Blog App',
     desc: 'Share your thoughts with the world. Create and manage your blog effortlessly with our Flask-powered platform. Write engaging posts, customize your layout, and connect with your audience. Start your blogging journey today.',
@@ -76,7 +84,7 @@ const projects = [
     ilink: '../../assets/blog.png',
   },
   {
-    id: 10,
+    id: 11,
     type: 'flask',
     name: 'MargDarshan',
     desc: 'Discover your dream career. Navigate your career path with confidence using our comprehensive guidance app. Access personalized recommendations, explore various fields, and connect with mentors. Built using Flask, Django, and MERN for optimal performance and scalability. Your future starts here.',
