@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="name">
-        Jigisha <span className="surname">Ghanekar</span>
+        Jigisha Ghanekar
       </div>
       <ul>
         <li>
