@@ -45,14 +45,14 @@
 
 @media screen and (max-width: 600px) {
   .navbar {
-    width: 100vw;
+    max-width: 100vw;
     padding: 0 1rem;
     position: fixed;
     left: 0;
     top: 0;
   }
   .name {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .navbar ul {
     gap: 1rem;
@@ -72,7 +72,7 @@
     top: 0;
   }
   .name {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .navbar ul {
     gap: 1rem;
