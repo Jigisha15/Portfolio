@@ -1,15 +1,16 @@
 import './Home.css'
 import Jigisha_Resume from '../../assets/Jigisha_Resume.pdf'
-import {animateScroll as scroll} from 'react-scroll'
+import Jigisha_Resume_J from '../../assets/Jigisha_Resume_J.pdf'
+import { animateScroll as scroll } from 'react-scroll'
 
 const Home = () => {
-   const scrollToSection = (offset) => {
-     scroll.scrollTo(offset, {
-       duration: 800,
-       delay: 0,
-       smooth: 'easeInOutQuart',
-     })
-   }
+  const scrollToSection = (offset) => {
+    scroll.scrollTo(offset, {
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart',
+    })
+  }
 
   return (
     <div className="homepage">
@@ -24,7 +25,7 @@ const Home = () => {
           <div className="buttons">
             <button className="button">
               <a
-                href={Jigisha_Resume}
+                href={Jigisha_Resume_J}
                 download="resume"
               >
                 My Resume
